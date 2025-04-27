@@ -1,0 +1,45 @@
+body{
+    background :#cc00ff;
+    color :#fff;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #000;
+    background-color: #ea96ff;
+    color: #000;
+    font-size: medium;
+    margin-top: 6em;
+    padding: 20px;
+}
+
+h1{
+    color: #000000;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container:hover{
+    box-shadow: 0 0 20px #ff0000;
+    transition: 5ms;
+}
+
+p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+label{
+    font-size:1.2em;
+}
+
+form{
+    align-items: center;
+    padding: 10%;
+}
