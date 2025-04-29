@@ -25,3 +25,13 @@ label{
 form:hover{
     box-shadow: 0 0 20px #ff0000;
 }
+
+footer{
+    text-align: center;
+    left:0;
+    bottom: 0;
+    color: white;
+    background-color: red;
+    position: fixed;
+    width: 100%;
+}
