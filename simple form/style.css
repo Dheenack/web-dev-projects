@@ -43,3 +43,12 @@ form{
     align-items: center;
     padding: 10%;
 }
+
+footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff0000;
+
+}
