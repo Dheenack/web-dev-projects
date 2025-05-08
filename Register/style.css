@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(90deg,#aabbcc,#2233ff);
+    background-size: auto;
+    font-family: 'Times New Roman';
+    }
+
+h1{
+    text-align: center;
+    margin: 1.5em;
+}
+
+div{
+    background-color:rgba(255,255,255,0.2);
+    padding: 5%;
+    width: max-content;
+    margin: auto;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 1.4em;
+    box-shadow: 0 0 20px;
+    backdrop-filter: blur(20px);
+}
+
+label{
+    font-size: 20px;
+}
+
+.input-field{
+    padding: 2px;
+    border: 1px white;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+}
+
+.input-field:hover{
+    color:white;
+    background-color: rgba(0, 19, 76,1);
+}
+
+#register{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    width: auto;
+    height: 5vh;
+    color: rgb(255, 255, 255);
+    background: green;
+}
+#register:hover{
+    color:black;
+    box-shadow: 1px 1px 1px rgb(233, 111, 111);
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
