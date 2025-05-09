@@ -33,6 +33,10 @@ label{
 .input-field:hover{
     color:white;
     background-color: rgba(0, 19, 76,1);
+    width: 80%;
+    height: 2vh;
+    padding: 2%;
+
 }
 
 #register{
@@ -49,6 +53,9 @@ label{
     box-shadow: 1px 1px 1px rgb(233, 111, 111);
 }
 
+div:hover{
+    box-shadow: 0 0 20px #ff0000;
+}
 footer{
     text-align: center;
     position: fixed;
